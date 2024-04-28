@@ -42,12 +42,12 @@ public class Employees_Chapter04 {
 			if(statement != null) {
 				try {
 					statement.close();
-				}catch(SQLException e) {}
+				}catch(SQLException ignore) {}
 			}
 			if(con != null) {
 				try {
 					con.close();
-				}catch(SQLException e) {}
+				}catch(SQLException ignore) {}
 
 			}
 		}
